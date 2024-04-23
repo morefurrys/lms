@@ -1,28 +1,28 @@
-# Learning Managment System
+Learning Managment System
 
-## Step 1: Project Setup
+Step 1: Project Setup
 
-### Create a new directory for your project and navigate into it.
+Create a new directory for your project and navigate into it.
 ```bash
 mkdir learning-management-app
 cd learning-management-app
 ```
-### Initialize a new Node.js project.
+Initialize a new Node.js project.
 ```bash
 npm init -y
 ```
-### Install necessary dependencies.
+Install necessary dependencies.
 ```bash
 npm install express mysql ejs bcryptjs express-session express-validator
 ```
 
-## Step 2: Set up the Backend
+Step 2: Set up the Backend
 
-### Create a `server.js` file in your project directory.
+Create a `server.js` file in your project directory.
 
-### Create a MySQL database named `learning_management` 
+Create a MySQL database named `learning_management` 
 
-#### Create users table
+Create users table
 ```bash
 -- Create users table
 CREATE TABLE users (
@@ -34,7 +34,7 @@ CREATE TABLE users (
 );
 ```
 
-#### Create courses table
+Create courses table
 ```bash
 -- Create courses table
 CREATE TABLE courses (
@@ -49,7 +49,7 @@ INSERT INTO courses (name) VALUES
 ('JavaScript Basics');
 ```
 
-#### Create leaderboard table
+Create leaderboard table
 ```bash
 -- Create leaderboard table
 CREATE TABLE leaderboard (
@@ -66,33 +66,33 @@ INSERT INTO leaderboard (name, score) VALUES
 ('Emily Jones', 80);
 ```
 
-### Run the server.
+Run the server.
 ```bash
 node server.js
 ```
 
-## Step 3: Frontend Setup
+Step 3: Frontend Setup
 
-### Create an `index.html` file for the frontend.
+Create an `index.html` file for the frontend.
 
-### Create a `course-content.html` file for the course content.
+Create a `course-content.html` file for the course content.
 
-### Create a `leader-board.html` file for the leader board.
+Create a `leader-board.html` file for the leader board.
 
-### Create a `style.css` file to style your HTML.
+Create a `style.css` file to style your HTML.
 
-### Create a `script.js` file to handle frontend interactions.
+Create a `script.js` file to handle frontend interactions.
 
-## Step 4: Testing
+Step 4: Testing
 Open your web browser and navigate to http://localhost:3000.
 
-# Hackathon Instructions
+Hackathon Instructions
 Finish up the project by: 
 1. creating functionality for the user to select their preferred courses.
 2. storing the selection in the database
 3. create a page where the selected courses for each student is displayed
    
-## Submission Guidelines
+Submission Guidelines
 Fork this repository and clone it to your local machine. 
 Create a new branch with your GitHub username (git checkout -b username). 
 Complete the tasks. 
